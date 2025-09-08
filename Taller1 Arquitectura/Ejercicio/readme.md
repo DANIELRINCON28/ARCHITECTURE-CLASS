@@ -40,6 +40,7 @@ Se entrega un código base defectuoso de un sistema muy simple para gestionar re
 
 6.	KISS:
 - Evitar lógica innecesariamente complicada (ejemplo: simplificar el foreach).
+
 7.	SoC:
 - Crear capas: Modelo (clases), Vista (HTML/echo), Controlador (flujo de la aplicación).
 
