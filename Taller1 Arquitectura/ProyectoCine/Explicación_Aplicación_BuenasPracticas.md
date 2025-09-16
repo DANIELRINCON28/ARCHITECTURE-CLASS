@@ -52,6 +52,5 @@ Solución en ProyectoCine: Django Rest Framework (DRF) y Django promueven DRY de
 Problema en ejercicio.php: La cadena de if/else para los detalles de las películas era innecesariamente complicada.
 Solución en ProyectoCine: El código es declarativo y simple. En views.py, un ViewSet se define con solo dos líneas (queryset y serializer_class), y el framework se encarga de toda la complejidad. La lógica es fácil de leer y entender.
 
-## Comentarios en el Código
+# Comentarios en el Código
 He añadido comentarios directamente en los archivos models.py, serializers.py, views.py y urls.py de tu proyecto ProyectoCine para que puedas identificar dónde y cómo se aplican estos principios en la práctica.
-
