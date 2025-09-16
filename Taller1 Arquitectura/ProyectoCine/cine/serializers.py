@@ -4,6 +4,10 @@ from .models import Pelicula, Usuario, Reserva
 
 # La capa de "traducción". Convierte los objetos de Python a JSON y viceversa.
 
+# Principio de Responsabilidad Única (SRP): Cada serializador tiene la única responsabilidad
+# de convertir los datos de un modelo específico a un formato como JSON.
+# Separación de Responsabilidades (SoC): Este archivo se ocupa únicamente de la "presentación" de los datos,
+# separando esta lógica del modelo y de la vista.
 class PeliculaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Pelicula
